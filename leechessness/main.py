@@ -1,4 +1,5 @@
-from core.driver import begin
+from core.driver import ChessComDriver
 
 if __name__ == '__main__':
-    begin()
+    driver = ChessComDriver()
+    driver.begin()
